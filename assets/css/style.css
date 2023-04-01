@@ -29,7 +29,7 @@
   .fila {
     display: flex;
     width: 100%;
-    justify-content: center; /* Añadimos esta propiedad */
+    justify-content: center;
   }
   
   .num {
@@ -72,7 +72,7 @@
   }
   
   .limpiar {
-    flex: 1 1 100%; /* Añadimos esta propiedad para que ocupe toda la anchura de la fila */
+    flex: 1 1 100%;
     font-size: 2em;
     margin: 5px;
     border: none;
