@@ -1,0 +1,88 @@
+.calculadora {
+    width: 320px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #ccc;
+  }
+  
+  .display {
+    padding: 10px;
+    background-color: #f2f2f2;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+  }
+  
+  .display input {
+    width: 100%;
+    height: 40px;
+    font-size: 2em;
+    text-align: right;
+    border: none;
+  }
+  
+  .botones {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .fila {
+    display: flex;
+    width: 100%;
+    justify-content: center; /* Añadimos esta propiedad */
+  }
+  
+  .num {
+    flex: 1 1 25%;
+    font-size: 2em;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 0 5px #ccc;
+    cursor: pointer;
+  }
+  
+  .num:hover {
+    background-color: #f2f2f2;
+  }
+  
+  .oper {
+    flex: 1 1 25%;
+    font-size: 2em;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: #e6e6e6;
+    box-shadow: 0 0 5px #ccc;
+    cursor: pointer;
+  }
+  
+  .oper:hover {
+    background-color: #d9d9d9;
+  }
+  
+  .igual {
+    flex: 1 1 50%;
+    font-size: 2em;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: #d9d9d9;
+  }
+  
+  .limpiar {
+    flex: 1 1 100%; /* Añadimos esta propiedad para que ocupe toda la anchura de la fila */
+    font-size: 2em;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: #e6e6e6;
+    box-shadow: 0 0 5px #ccc;
+    cursor: pointer;
+  }
+  
+  .limpiar:hover {
+    background-color: #d9d9d9;
+  }
+  

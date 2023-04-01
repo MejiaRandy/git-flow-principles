@@ -3,33 +3,42 @@
   <head>
     <meta charset="UTF-8">
     <title>Calculadora básica</title>
+    <link rel="stylesheet" href="/assets/css/style.css">
   </head>
   <body>
-    <h1>Calculadora básica</h1>
-    <form>
-      <input type="text" id="display" readonly>
-      <br>
-      <input type="button" value="1">
-      <input type="button" value="2">
-      <input type="button" value="3">
-      <input type="button" value="+">
-      <br>
-      <input type="button" value="4">
-      <input type="button" value="5">
-      <input type="button" value="6">
-      <input type="button" value="-">
-      <br>
-      <input type="button" value="7">
-      <input type="button" value="8">
-      <input type="button" value="9">
-      <input type="button" value="*">
-      <br>
-      <input type="button" value="0">
-      <input type="button" value=".">
-      <input type="button" value="=">
-      <input type="button" value="/">
-      <br>
-      <input type="button" value="C">
-    </form>
+    <div class="calculadora">
+      <div class="display">
+        <input type="text" id="display" readonly>
+      </div>
+      <div class="botones">
+        <div class="fila">
+          <button class="num">7</button>
+          <button class="num">8</button>
+          <button class="num">9</button>
+          <button class="oper">/</button>
+        </div>
+        <div class="fila">
+          <button class="num">4</button>
+          <button class="num">5</button>
+          <button class="num">6</button>
+          <button class="oper">*</button>
+        </div>
+        <div class="fila">
+          <button class="num">1</button>
+          <button class="num">2</button>
+          <button class="num">3</button>
+          <button class="oper">-</button>
+        </div>
+        <div class="fila">
+          <button class="num">0</button>
+          <button class="num">.</button>
+          <button class="igual">=</button>
+          <button class="oper">+</button>
+        </div>
+        <div class="fila">
+          <button class="limpiar">Clear</button>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
