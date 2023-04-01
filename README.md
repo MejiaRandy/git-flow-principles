@@ -8,6 +8,7 @@ Git Flow is the main topic for this homework using all the topics learned from t
 ## Cuestionario
 
 1- ¿Qué es Git?
+
   Git es un sistema de control de versiones de código abierto
   ampliamente utilizado para el desarrollo de software. Fue creado en
   2005 por Linus Torvalds como una alternativa al anterior sistema de
@@ -29,6 +30,7 @@ Git Flow is the main topic for this homework using all the topics learned from t
   para su uso en una variedad de entornos de desarrollo.
   
 2. ¿Para qué funciona el comando Git Init?
+  
   El comando git init se utiliza para inicializar un nuevo repositorio de Git
   en un directorio específico. En otras palabras, crea un nuevo repositorio
   de Git vacío en la ubicación actual del directorio.
@@ -43,6 +45,7 @@ Git Flow is the main topic for this homework using all the topics learned from t
   confirmar archivos, crear ramas y fusionar ramas.
   
 3. ¿Qué es una rama?
+
   En Git, una rama es una línea de desarrollo independiente que se deriva
   del historial de confirmaciones principal, o rama principal (también
   conocida como rama "master" en algunos casos). Las ramas permiten a
@@ -66,6 +69,7 @@ Git Flow is the main topic for this homework using all the topics learned from t
   colaborativa en proyectos de software.
   
 4. ¿Cómo saber en qué rama estoy?
+
   Para saber en qué rama te encuentras actualmente en Git, puedes
   utilizar el comando git branch. Este comando lista todas las ramas
   disponibles en tu repositorio local y muestra con un asterisco (*) la rama
@@ -88,6 +92,7 @@ Git Flow is the main topic for this homework using all the topics learned from t
   ![Screenshot](/assets/images/gitbranch3.png)
 
 5. Quién creó Git?
+
   Git fue creado por Linus Torvalds, el mismo creador del kernel de Linux.
   En el año 2005, Torvalds inició el desarrollo de Git como una herramienta
   de control de versiones para el desarrollo del kernel de Linux.
@@ -131,6 +136,7 @@ Git Flow is the main topic for this homework using all the topics learned from t
   eliminado o agregado.
 
 7. ¿Qué es Git Flow?
+
   Git Flow es una estrategia de flujo de trabajo o modelo de ramificación
   para Git, que fue desarrollado por Vincent Driessen. Este modelo
   establece una serie de reglas y pautas para administrar y organizar las
@@ -162,6 +168,7 @@ Git Flow is the main topic for this homework using all the topics learned from t
   errores en el código.
   
 8. ¿Qué es Trunk Based Development?
+
   Trunk Based Development (TBD) es un modelo de desarrollo de software
   en el que todas las ramas del proyecto se basan en una única rama
   principal, a menudo llamada trunk o main. En lugar de crear ramas
