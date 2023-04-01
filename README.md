@@ -71,21 +71,21 @@ Git Flow is the main topic for this homework using all the topics learned from t
   disponibles en tu repositorio local y muestra con un asterisco (*) la rama
   actual en la que te encuentras.
   
-  ![My Image](images/gitbranch1.png)
+  ![Screenshot](/assets/images/gitbranch1.png)
   
   Esto mostrará una lista de todas las ramas en tu repositorio, con el
   asterisco indicando la rama actual en la que te encuentras. Por ejemplo,
   si estás actualmente en la rama "develop", la salida del comando se
   verá así:
   
-  ![My Image](images/gitbranch2.png)
+  ![Screenshot](/assets/images/gitbranch2.png)
   
   En este ejemplo, el asterisco (*indica que la rama "develop" es la rama
   actual. Si deseas cambiar a otra rama, puedes utilizar el comando git
   checkout seguido del nombre de la rama a la que deseas cambiar. Por
   ejemplo:
   
-  ![My Image](images/gitbranch3.png)
+  ![Screenshot](/assets/images/gitbranch3.png)
 
 5. Quién creó Git?
   Git fue creado por Linus Torvalds, el mismo creador del kernel de Linux.
