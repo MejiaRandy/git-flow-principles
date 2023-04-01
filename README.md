@@ -71,18 +71,119 @@ Git Flow is the main topic for this homework using all the topics learned from t
   disponibles en tu repositorio local y muestra con un asterisco (*) la rama
   actual en la que te encuentras.
   
-  <img src="/images/gitbranch1">
+  ![My Image](images/gitbranch1.png)
   
   Esto mostrará una lista de todas las ramas en tu repositorio, con el
   asterisco indicando la rama actual en la que te encuentras. Por ejemplo,
   si estás actualmente en la rama "develop", la salida del comando se
   verá así:
   
-  <img src="/images/gitbranch2">
+  ![My Image](images/gitbranch2.png)
   
   En este ejemplo, el asterisco (*indica que la rama "develop" es la rama
   actual. Si deseas cambiar a otra rama, puedes utilizar el comando git
   checkout seguido del nombre de la rama a la que deseas cambiar. Por
   ejemplo:
   
-  <img src="/images/gitbranch3">
+  ![My Image](images/gitbranch3.png)
+
+5. Quién creó Git?
+  Git fue creado por Linus Torvalds, el mismo creador del kernel de Linux.
+  En el año 2005, Torvalds inició el desarrollo de Git como una herramienta
+  de control de versiones para el desarrollo del kernel de Linux.
+  
+  6. Cuáles son los comandos más esenciales de Git?
+  Hay varios comandos esenciales en Git que son fundamentales para
+  trabajar con control de versiones. A continuación se presentan algunos
+  de los comandos más utilizados en Git:
+  
+  1. git init: Este comando se utiliza para inicializar un nuevo repositorio
+  de Git en un directorio.
+  
+  2. git clone: Este comando se utiliza para crear una copia de un
+  repositorio Git existente en una nueva ubicación.
+  
+  3. git add: Este comando se utiliza para agregar archivos al área de
+  preparación (staging area) para ser incluidos en la próxima
+  confirmación.
+  
+  4. git commit: Este comando se utiliza para crear una nueva
+  confirmación con los archivos del área de preparación (staging
+  area).
+  
+  5. git push: Este comando se utiliza para subir los cambios locales en
+  un repositorio local a un repositorio remoto.
+  
+  6. git pull: Este comando se utiliza para descargar y fusionar los
+  cambios remotos en un repositorio local.
+  
+  7. git branch: Este comando se utiliza para listar, crear o eliminar
+  ramas.
+  
+  8. git checkout: Este comando se utiliza para cambiar entre ramas o
+  restaurar archivos a una versión anterior.
+  
+  9. git merge: Este comando se utiliza para fusionar una rama con
+  otra rama activa.
+  
+  10. git status: Este comando se utiliza para mostrar el estado actual
+  del repositorio, incluyendo los archivos que se han modificado,
+  eliminado o agregado.
+
+7. ¿Qué es Git Flow?
+  Git Flow es una estrategia de flujo de trabajo o modelo de ramificación
+  para Git, que fue desarrollado por Vincent Driessen. Este modelo
+  establece una serie de reglas y pautas para administrar y organizar las
+  ramas de Git en un proyecto.
+
+  El modelo Git Flow se basa en dos ramas principales: master y develop.
+  La rama master contiene la versión más estable del proyecto y es
+  utilizada para producir lanzamientos oficiales, mientras que la rama
+  develop se utiliza para integrar todas las características nuevas y
+  cambios realizados en el proyecto.
+
+  Además de estas dos ramas principales, el modelo Git Flow utiliza una
+  serie de ramas adicionales para facilitar el desarrollo de nuevas
+  características y la solución de problemas. Algunas de estas ramas
+  adicionales incluyen:
+
+  feature: Una rama utilizada para desarrollar nuevas características en el
+  proyecto.
+  release: Una rama utilizada para preparar y probar la versión actual del
+  proyecto para su lanzamiento.
+  hotfix: Una rama utilizada para solucionar problemas críticos en la
+  versión actual del proyecto.
+  El uso de Git Flow proporciona una estructura clara y organizada para el
+  desarrollo de software, lo que puede ayudar a mantener el control de
+  versiones del proyecto de manera más eficiente y eficaz.
+  Además, al utilizar ramas separadas para el desarrollo de nuevas
+  características y la solución de problemas, los desarrolladores pueden
+  trabajar de manera más aislada y reducir el riesgo de conflictos y
+  errores en el código.
+  
+8. ¿Qué es Trunk Based Development?
+  Trunk Based Development (TBD) es un modelo de desarrollo de software
+  en el que todas las ramas del proyecto se basan en una única rama
+  principal, a menudo llamada trunk o main. En lugar de crear ramas
+  separadas para cada nueva característica o corrección de errores, los
+  desarrolladores realizan todos sus cambios directamente en la rama
+  principal y utilizan técnicas de integración continua y entrega continua
+  para garantizar que los cambios se prueben y se publiquen de manera
+  continua y rápida.
+
+  A diferencia de otros modelos de ramificación como Git Flow, Trunk
+  Based Development se centra en mantener una única rama principal,
+  con el objetivo de mantener un proceso de desarrollo más simple y
+  eficiente. Al mantener un historial de cambios más simplificado, los
+  desarrolladores pueden reducir el riesgo de conflictos y errores en el
+  código y pueden tomar decisiones más informadas sobre la priorización
+  de nuevas características y correcciones de errores.
+
+  Sin embargo, Trunk Based Development no es adecuado para todos los
+  proyectos y requiere un conjunto diferente de herramientas y prácticas
+  para funcionar de manera efectiva. Por ejemplo, los desarrolladores
+  deben confiar en las pruebas automatizadas y los sistemas de
+  integración continua para detectar y corregir problemas de forma
+  rápida y precisa. Además, los desarrolladores también deben ser
+  capaces de realizar cambios en pequeñas iteraciones, para que los
+  cambios se puedan probar y publicar de forma continua.
